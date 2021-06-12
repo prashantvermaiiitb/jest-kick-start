@@ -44,3 +44,7 @@ test('Should return Object', () => {
     const firstName = 'john', lastName = 'woo';
     expect(ObjectTest.getUser(firstName, lastName)).toEqual({ firstName, lastName });
 });
+/**
+ * Simple null check
+ */
+test('Null check', () => { expect(ObjectTest.isNull()).toBeNull() })
