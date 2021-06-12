@@ -21,10 +21,9 @@ describe("Async request and response testing", () => {
     /**
      * Getting User with Id
      */
-    test('Should return user', () => {
+    test('Should return user', async () => {
         expect.assertions(1);
-        return asyncUserOperation.getUser(1).then(data => {
-            expect(data.name).toEqual('Leanne Graham');
-        });
+        const data = await asyncUserOperation.getUser(1);
+        expect(data.name).toEqual('Leanne Graham');
     });
 });
