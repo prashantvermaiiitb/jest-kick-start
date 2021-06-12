@@ -1,0 +1,23 @@
+{
+  "name": "jest-kick-start",
+  "version": "1.0.0",
+  "description": "Jest kick start tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prashantvermaiiitb/jest-kick-start.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prashantvermaiiitb/jest-kick-start/issues"
+  },
+  "homepage": "https://github.com/prashantvermaiiitb/jest-kick-start#readme",
+  "devDependencies": {
+    "jest": "^27.0.4"
+  }
+}
